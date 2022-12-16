@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+
+	<head>
+		<title>Título do meu website</title>
+		<meta charset="utf-8" />
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+				<legend>Meu grupo do formuláro</legend>
+				<div><input type="text" name="nome" placeholder="Digite seu nome"></div>
+				<div><input type="text" name="email" placeholder="Digite seu email"></div>
+				<div>
+					<select name="lista">
+						<option disabled selected>Qual a sua idade?</option>
+						<option value="20+">20+</option>
+						<option value="30+">30+</option>
+						<option value="40+">40+</option>
+					</select>
+				</div>
+
+				<h2>Qual sua Cidade?</h2>
+				<div class="radio-input">
+				<div>
+					<input type="radio" name="cidade" value="Porto Alegre"/><span>Porto Alegre</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade" value="São Paulo"/><span>São Paulo</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade" value="Rio de Janeiro"/><span>Rio de Janeiro</span>
+				</div>
+				</div>
+				
+				<h2>O que você gosta de comer?</h2>
+				<div class="input">
+				<div>
+					<input type="checkbox" name="cidade[]" value="Pizza"><span>Pizza</span>
+				</div>
+				<div>
+					<input type="checkbox" name="cidade[]" value="Hamburguer"><span>Hamburguer</span>
+				</div>
+				<div>
+					<input type="checkbox" name="cidade[]" value="Ala Minuta"><span>Ala Minuta</span>
+				</div>
+				</div>
+					<div>
+						<textarea name="observacao" placeholder="Possui alguma observação?"></textarea>
+					</div>
+					<div>
+						<input type="submit" name="acao" value="Enviar">
+					</div>
+			</fieldset>
+		</form>
+	</body>
+
+
+
+
+</html>
